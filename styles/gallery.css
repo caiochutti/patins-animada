@@ -38,10 +38,10 @@ section.gallery {
 
             animation: image-appear linear backwards;
             animation-timeline: view();
-            animation-ranger: 100px 350px;
+            animation-range: 100px 350px;
 
             &[data-delay] {
-                animation-ranger: 150px 300px;
+                animation-range: 150px 300px;
             }
 
             & > img {
